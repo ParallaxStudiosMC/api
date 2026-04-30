@@ -1,31 +1,31 @@
 {
   "neveralone": {
     "latest_version": "1.0.0",
-    "download_url": "https://cdn.parallaxstudios.dev/mods/neveralone-1.0.0+1.20.1.jar",
+    "download_url": "https://cdn.parallaxstudios.xyz/mods/neveralone-1.0.0+1.20.1.jar",
     "changelog": "initial release",
     "mc_version": "1.20.1"
   },
   "neveralone-1.19.2-backport": {
     "latest_version": "1.0.0",
-    "download_url": "https://cdn.parallaxstudios.dev/mods/neveralone-1.0.0+1.19.2.jar",
+    "download_url": "https://cdn.parallaxstudios.xyz/mods/neveralone-1.0.0+1.19.2.jar",
     "changelog": "initial release",
     "mc_version": "1.19.2"
   },
     "shadowstalker": {
     "latest_version": "6.1.1",
-    "download_url": "https://cdn.parallaxstudios.dev/mods/shadowstalker-6.1.1.jar",
+    "download_url": "https://cdn.parallaxstudios.xyz/mods/shadowstalker-6.1.1.jar",
     "changelog": "Enhancements to the entity",
     "mc_version": "1.19.2"
   },
       "dreadedviewer": {
     "latest_version": "3.0.0",
-    "download_url": "https://cdn.parallaxstudios.dev/mods/thedreadedviewer-3.0.0-forge-1.19.2.jar",
+    "download_url": "https://cdn.parallaxstudios.xyz/mods/thedreadedviewer-3.0.0-forge-1.19.2.jar",
     "changelog": "Fix issues with the entity chase scene, improve AI, etc.",
     "mc_version": "1.19.2"
   },
       "whiteeyes": {
     "latest_version": "1.1.0b",
-    "download_url": "https://cdn.parallaxstudios.dev/mods/white_eyes-1.1.0b-forge-1.19.2.jar",
+    "download_url": "https://cdn.parallaxstudios.xyz/mods/white_eyes-1.1.0b-forge-1.19.2.jar",
     "changelog": "Improve the entity, making it have more movement, and be more active.",
     "mc_version": "1.19.2"
   }
