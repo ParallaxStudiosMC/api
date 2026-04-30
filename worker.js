@@ -3,7 +3,7 @@
 // Serverless Function Entry Point
 // ============================================================
 
-import MOD_REGISTRY from "./mods.json";
+import MOD_REGISTRY from "https://cdn.parallaxstudios.xyz/mods.json";
 
 // ============================================================
 // Main Request Handler
