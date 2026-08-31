@@ -1,13 +1,5 @@
-// ============================================================
-// Parallax Studios API - worker.js
-// Serverless Function Entry Point
-// ============================================================
 
 import MOD_REGISTRY from "https://cdn.parallaxstudios.xyz/mods.json";
-
-// ============================================================
-// Main Request Handler
-// ============================================================
 export default {
   async fetch(request) {
     const url = new URL(request.url);
@@ -23,24 +15,15 @@ export default {
     });
   },
 };
-
-// ============================================================
-// /updater
-// Params: ?mod=<mod_id>&localver=<version_on_client>
-// ============================================================
 function handleUpdater(params) {
   const modId = params.get("mod");
   const localVersion = params.get("localver");
-
-  // Validate params
   if (!modId || !localVersion) {
     return jsonResponse(
       { error: "Missing required parameters: mod, localver" },
       400
     );
   }
-
-  // Look up mod in registry
   const mod = MOD_REGISTRY[modId];
   if (!mod) {
     return jsonResponse({ error: `Mod '${modId}' not found in registry.` }, 404);
@@ -60,10 +43,6 @@ function handleUpdater(params) {
     }),
   });
 }
-
-// ============================================================
-// Helper: JSON response
-// ============================================================
 function jsonResponse(data, status = 200) {
   return new Response(JSON.stringify(data, null, 2), {
     status,
